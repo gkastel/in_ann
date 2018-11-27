@@ -1,0 +1,35 @@
+# FILES
+
+inn.py - the full 2 layer model
+plots.py - plots of the results
+
+x_data_hipp.csv: X (input) data of  hipp data (
+y_data_hipp.csv: Y (output) data of hipp 
+x_data_pfc.csv  PFC input data etc
+
+predictions-linear.csv: predicted values from linear model
+actual-linear.csv: actual values that 
+
+
+# INSTRUCTIONS:
+
+
+# The code is in /home/gkastel/src/alex:
+
+# First we need to activate python with conda:
+
+conda activate
+
+cd ~/src/alex
+
+
+# runs the model for 4 different cases of dendrites (sub, supra, mixed, linear):
+
+sh run.sh 
+
+
+# After this is finished, plot the results:
+
+python plots.py
+
+
